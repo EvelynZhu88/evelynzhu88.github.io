@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Webpage</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#intro">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#life">Life</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Introduction Section (Two Columns: Introduction Text on the Left, Profile Picture on the Right) -->
+  <section id="intro" class="intro-section">
+    <div class="intro-text">
+      <h1>Hello, I'm Evelyn</h1>
+      <p>
+        Welcome to my webpage!
+      </p>
+    </div>
+    <div class="intro-image">
+      <img src="image/Profile pic.jpg" alt="My pircture" class="profile-pic">
+    </div>
+  </section>
+
+  <!-- Main Content Sections -->
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am currently a second year student majoring mathematics with a specilization in programing. I love video games! The lengend of Zelda and Animal Crossing are my favorites game! </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Updating...</p>
+    </section>
+    
+        <section id="life">
+      <h2>Life</h2>
+      <p>Here is something about my life</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/evelynz88" target="_blank">
+          My linkedin profile
+        </a>
+      </p>
+      <p>
+        Email:
+        <a href="mailto:evelynzhu88@ucla.edu">
+          evelynzhu88@ucla.edu
+        </a>
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <small>&copy; Evelyn Zhu, 2025</small>
+  </footer>
+  <script>
+  window.addEventListener('load', function() {
+    // Fire confetti once when the page loads
+    confetti({
+      particleCount: 150,
+      spread: 120,
+      origin: { y: 0.7 }
+    });
+  });
+</script>
+
+</body>
+
+</html>
