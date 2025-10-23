@@ -81,12 +81,12 @@ main section {
 }
 
 .profile-pic {
-  width: auto;  /* Adjust this value as needed */
+  width: auto; 
   height: 300px;
-  border-radius: 8px;  /* Optional: for rounded corners */
+  border-radius: 8px; 
 }
 
-/* Footer Styling */
+/* Footer */
 footer {
   text-align: center;
   padding: 10px;
