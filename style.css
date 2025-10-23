@@ -81,8 +81,8 @@ main section {
 }
 
 .profile-pic {
-  width: 230px;  /* Adjust this value as needed */
-  height: auto;
+  width: auto;  /* Adjust this value as needed */
+  height: 300px;
   border-radius: 8px;  /* Optional: for rounded corners */
 }
 
