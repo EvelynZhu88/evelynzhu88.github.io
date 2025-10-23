@@ -8,7 +8,7 @@
 
 /* Set a background image for the entire page */
 body {
-  background: url('image/pink background.jpg') no-repeat center center fixed;
+  /*background: url('image/pink background.jpg') no-repeat center center fixed;*/
   background-size: cover;
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
