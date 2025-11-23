@@ -10,13 +10,14 @@
 body {
   /*background: url('image/pink background.jpg') no-repeat center center fixed;*/
   background-size: cover;
+  background-color: #ffe9ec;
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
 }
 
 /* Navigation Bar Styling */
 header {
-  background-color: #FFD1DC;
+  background-color: #ffe9ec;
   padding: 10px 0;
 }
 
@@ -44,7 +45,7 @@ nav ul li a {
   justify-content: center;
   padding: 40px 20px;
   margin: 20px;
-  background-color: rgba(255, 255, 255, 0.85); /* A semi-transparent background */
+  background-color: transparent;
   border-radius: 8px;
 }
 
@@ -72,7 +73,7 @@ nav ul li a {
 main {
   padding: 20px;
   margin: 20px;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: transparent;
   border-radius: 8px;
 }
 .project-card {
@@ -115,18 +116,19 @@ main {
 
 .project-title {
   margin: 0;
-  font-size: 1.5rem;
-  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000;
 }
 
 .project-author {
   margin: 5px 0 10px;
-  color: #ccc;
+  color: #000;
 }
 
 .project-description {
   margin: 0 0 10px;
-  color: #ddd;
+  color: #000;
   line-height: 1.5;
 }
 
@@ -138,6 +140,11 @@ main {
 
 .project-link:hover {
   text-decoration: underline;
+}
+
+.project-link-separator {
+  margin: 0 8px;
+  color: #000;
 }
 
 main section {
@@ -154,6 +161,6 @@ main section {
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #FFD1DC;
+  background-color: #ffe9ec;
   color: white;
 }
