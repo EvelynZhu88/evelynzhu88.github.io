@@ -58,7 +58,7 @@ nav ul li a {
 }
 
 .intro-image {
-  width: 250px;
+  width: 350px;
   flex-shrink: 0;
   text-align: center;
 }
@@ -81,11 +81,10 @@ main {
   gap: 20px;
   margin-bottom: 40px;
   padding: 20px 0;
-  border-bottom: 1px solid #333;
 }
 
 .project-image-container {
-  width: 160px;
+  width: 350px;
   flex-shrink: 0;
   display: flex;
   align-items: center;
@@ -109,6 +108,9 @@ main {
 
 .project-info {
   max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .project-title {
@@ -129,7 +131,7 @@ main {
 }
 
 .project-link {
-  color: #4ea8ff;
+  color: #f8a5c2;
   text-decoration: none;
   font-weight: bold;
 }
