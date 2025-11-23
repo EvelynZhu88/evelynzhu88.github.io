@@ -84,15 +84,15 @@ main {
   border-bottom: 1px solid #333;
 }
 
+.project-image-container {
+  width: 150px;
+  flex-shrink: 0;
+}
+
 .project-image {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
-}
-
-.project-image-container {
-  width: 180px;   /* SAME SIZE FEEL as a profile picture */
-  flex-shrink: 0;
 }
 
 .project-info {
