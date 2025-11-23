@@ -85,10 +85,14 @@ main {
 }
 
 .project-image {
-  width: 200px;
-  height: 130px;
-  object-fit: cover;
-  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-image-container {
+  width: 180px;   /* SAME SIZE FEEL as a profile picture */
+  flex-shrink: 0;
 }
 
 .project-info {
