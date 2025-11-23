@@ -17,7 +17,7 @@ body {
 
 /* Navigation Bar Styling */
 header {
-  background-color: #ffe9ec;
+  background-color: #ffd0d7;
   padding: 10px 0;
 }
 
@@ -59,12 +59,13 @@ nav ul li a {
 }
 
 .intro-image {
-  width: 350px;
+  width: 180px;
   flex-shrink: 0;
   text-align: center;
 }
 
 .intro-image img {
+  height: 160px;
   height: auto;
   border-radius: 8px;
 }
@@ -123,7 +124,7 @@ main {
 
 .project-author {
   margin: 5px 0 10px;
-  color: #000;
+  color: #ccc;
 }
 
 .project-description {
@@ -142,11 +143,6 @@ main {
   text-decoration: underline;
 }
 
-.project-link-separator {
-  margin: 0 8px;
-  color: #000;
-}
-
 main section {
   margin-bottom: 20px;
 }
@@ -161,6 +157,6 @@ main section {
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #ffe9ec;
+  background-color: #ffd0d7;
   color: white;
 }
