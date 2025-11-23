@@ -113,6 +113,7 @@ main {
 .project-card {
   display: flex;
   align-items: flex-start;
+  flex-direction: row-reverse;
   gap: 20px;
   margin-bottom: 40px;
   padding: 20px 0;
@@ -193,4 +194,3 @@ footer {
   color: black;
   margin-left: 300px;
 }
-
