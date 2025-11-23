@@ -58,13 +58,12 @@ nav ul li a {
 }
 
 .intro-image {
-  width: 180px;
+  width: 250px;
   flex-shrink: 0;
   text-align: center;
 }
 
 .intro-image img {
-  max-width: 160px;
   height: auto;
   border-radius: 8px;
 }
@@ -86,14 +85,26 @@ main {
 }
 
 .project-image-container {
-  width: 150px;
+  width: 160px;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-image {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
+}
+
+.project-image-container.placeholder {
+  border: 1px dashed #aaa;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #666;
+  padding: 10px;
+  text-align: center;
 }
 
 .project-info {
