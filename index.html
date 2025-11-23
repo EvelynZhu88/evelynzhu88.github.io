@@ -14,34 +14,37 @@
 </head>
 
 <body>
-  <!-- Navigation Bar -->
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#intro">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="page-layout">
+    <aside class="sidebar">
+      <div class="sidebar-profile">
+        <img src="/images/profile-pic.JPG" alt="My picture" class="sidebar-photo">
+        <h1>Evelyn Zhu</h1>
+        <p>Mathematics & Programming @ UCLA</p>
+      </div>
+      <nav class="sidebar-nav">
+        <ul>
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </aside>
 
-  <!-- Introduction Section (Two Columns: Introduction Text on the Left, Profile Picture on the Right) -->
-  <section id="intro" class="intro-section">
-    <div class="intro-text">
-      <h1>Hello, I'm Evelyn</h1>
-      <p>
-        WELCOME!
-      </p>
-    </div>
-    <div class="intro-image">
-      <img src="/images/profile-pic.JPG" alt="My pircture" class="profile-pic">
-    </div>
-  </section>
+    <div class="content-area">
+      <!-- Introduction Section -->
+      <section id="intro" class="intro-section">
+        <div class="intro-text">
+          <h1>Hello, I'm Evelyn</h1>
+          <p>
+            WELCOME!
+          </p>
+        </div>
+      </section>
 
-  <!-- Main Content Sections -->
-  <main>
-    <section id="about">
+      <!-- Main Content Sections -->
+      <main>
+        <section id="about">
       <h2>About Me</h2>
       <p>I am currently a third year student at UCLA, majoring mathematics with a specilization in programing.
         <br><strong>Favorite games:</strong> Mario Oddesey and Legend of Zelda
@@ -55,7 +58,7 @@
       <p>Updating...</p>
     </section> -->
 
-    <section id="Projects">
+        <section id="Projects">
       <h2>Projects</h2>
 
       <!-- <div class="project-info">
@@ -122,7 +125,7 @@
 
     </section>
 
-    <section id="contact">
+        <section id="contact">
       <h2>Contact</h2>
       <p>
         LinkedIn:
@@ -137,7 +140,9 @@
         </a>
       </p>
     </section>
-  </main>
+      </main>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer>
