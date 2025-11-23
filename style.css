@@ -75,6 +75,52 @@ main {
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 8px;
 }
+.project-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 40px;
+  padding: 20px 0;
+  border-bottom: 1px solid #333;
+}
+
+.project-image {
+  width: 200px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-info {
+  max-width: 600px;
+}
+
+.project-title {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.project-author {
+  margin: 5px 0 10px;
+  color: #ccc;
+}
+
+.project-description {
+  margin: 0 0 10px;
+  color: #ddd;
+  line-height: 1.5;
+}
+
+.project-link {
+  color: #4ea8ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
 
 main section {
   margin-bottom: 20px;
