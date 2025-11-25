@@ -78,6 +78,7 @@ body {
   justify-content: center;
   padding: 40px 20px;
   margin: 20px;
+  max-width: 960px;
   background-color: transparent;
   border-radius: 8px;
 }
@@ -109,22 +110,23 @@ main {
   margin: 20px;
   background-color: transparent;
   border-radius: 8px;
+  max-width: 960px;
 }
 .project-card {
   display: flex;
   align-items: flex-start;
-  flex-direction: row-reverse;
+  flex-direction: row;
   gap: 16px;
   margin-bottom: 28px;
   padding: 12px 0;
 }
-
 .project-image-container {
   width: 350px;
   flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  order: 2;
 }
 
 .project-image {
@@ -147,8 +149,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  order: 1;
 }
-
 .project-title {
   margin: 0;
   font-size: 1rem;
@@ -185,6 +187,16 @@ main {
 
 main section {
   margin-bottom: 20px;
+}
+main section > h2 {
+  margin-bottom: 12px;
+}
+main section > :not(h2) {
+  margin-left: 40px;
+}
+#about,
+#contact {
+  max-width: 600px;
 }
 
 .profile-pic {
