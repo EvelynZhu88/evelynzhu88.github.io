@@ -194,7 +194,9 @@ main section > h2 {
 main section > :not(h2) {
   margin-left: 40px;
 }
-#about,
+#about {
+  max-width: none;
+}
 #contact {
   max-width: 600px;
 }
