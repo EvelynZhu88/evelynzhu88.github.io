@@ -74,8 +74,8 @@ body {
 }
 
 .content-area {
-  margin-left: 210px;
-  padding: 20px 20px 40px;
+  /* Reserve space for the fixed 220px sidebar with padding (no overflow) */
+  padding: 20px 20px 40px 240px;
   width: 100%;
 }
 
@@ -85,7 +85,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 40px 20px;
-  margin: 20px;
+  margin: 20px auto;
   max-width: 960px;
   background-color: transparent;
   border-radius: 8px;
@@ -115,7 +115,7 @@ body {
 /* Main Content Styling */
 main {
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
   background-color: transparent;
   border-radius: 8px;
   max-width: 960px;
@@ -135,6 +135,21 @@ main {
   align-items: center;
   justify-content: center;
   order: 2;
+}
+
+/* Featured card: keep image to the right, wider column, aligned to the paragraph */
+.project-card.featured {
+  align-items: stretch;
+}
+
+.project-card.featured .project-image-container {
+  width: 480px;
+}
+
+/* Teaser fills the paragraph's height, whole image visible, centered */
+.project-card.featured .project-image {
+  height: 100%;
+  object-fit: contain;
 }
 
 .project-image {
