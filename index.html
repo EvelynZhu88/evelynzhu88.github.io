@@ -46,185 +46,151 @@
       <!-- Main Content Sections -->
       <main>
         <section id="about">
-      <h2>About Me</h2>
-      <p>I am currently a third year student at UCLA, majoring Mathematics with a specilization in programing.
-        <br><strong>Favorite games:</strong> Mario Oddesey and Legend of Zelda
-        <br><strong>Favorite movie/shows:</strong> La La Land, Sofia the First, and all the Pixar movies!!!
-        <br><strong>some hobbies...?</strong> I love cooking <a href="https://perpetual-basin-d94.notion.site/2857400a94da8078aef3f7b70d8b57c8?source=copy_link" class=project-link>(check some of my recipes here!)</a>, reading, and taking photos! (I used to dream about becoming a professional photographer)
-      </p>
-    </section>
+          <h2>About Me</h2>
+          <p>I am currently a third year student at UCLA, majoring Mathematics with a specilization in programing.
+            <br><strong>Favorite games:</strong> Mario Oddesey and Legend of Zelda
+            <br><strong>Favorite movie/shows:</strong> La La Land, Sofia the First, and all the Pixar movies!!!
+            <br><strong>some hobbies...?</strong> I love cooking <a href="https://perpetual-basin-d94.notion.site/2857400a94da8078aef3f7b70d8b57c8?source=copy_link" class=project-link>(check some of my recipes here!)</a>, reading, and taking photos! (I used to dream about becoming a professional photographer)
+          </p>
+        </section>
 
-    <!-- <section id="Publications">
-      <h2>Publications</h2>
-      <p>Updating...</p>
-    </section> -->
+        <!-- <section id="Publications">
+          <h2>Publications</h2>
+          <p>Updating...</p>
+        </section> -->
 
         <section id="Projects">
-      <h2>Projects</h2>
+          <h2>Projects</h2>
 
-      <!-- <div class="project-info">
-        <h2 class="project-title"></h2>
-        <p class="project-author"><strong></strong></p>
-        <p class="project-description">
-        </p>
-        <a href="" class="project-link">Project Page</a>
-      </div> -->
+          <!-- -------------GIDF PROJECT--------- -->
+          <div class="project-card">
+            <div class="project-image-container">
+              <img src="images/GIDF/main_pipeline_teaser.png.jpg" alt="Graph-Informed Deep Factor Model pipeline teaser" class="project-image" />
+            </div>
+            <div class="project-info">
+              <h2 class="project-title">
+                Graph-Informed Deep Factor Model for Statistical Arbitrage
+              </h2>
 
-      <!-- Quant Graph Informed Factor -->
-      <!-- <div class="project-card">
+              <p class="project-description">
+                Working with <a href="https://www.math.ucla.edu/~mihai/" class="project-link">Mihai Cucuringu</a> on a quantitative finance research project,
+                we develop a nonlinear single-factor model whose per-stock loadings are conditioned on a data-driven signed graph of residual dependencies (FADE).
+                A signed-edge graph attention layer combines the graph with firm characteristics and macroeconomic state, producing residuals with stronger daily
+                mean-reversion. On CRSP point-in-time S&amp;P 500 constituents (2015&ndash;2024), the model attains an out-of-sample Sharpe of 1.78 under the
+                canonical Avellaneda&ndash;Lee rule, outperforming both classical factor benchmarks (Fama&ndash;French, PCA) and state-of-the-art deep-learning
+                baselines (conditional autoencoder, adversarial SDF).
+              </p>
 
-      <div class="project-image-container">
-      <img src="" alt="" class="project-image" />
-      </div>
+              <a href="" class="project-link">
+                View Code
+              </a>
+            </div>
+          </div>
 
-      <div class="project-info">
-      <h2 class="project-title">
-        Graph-Informed Deep Factors for Statistical Arbitrage
-      </h2>
+          <!-- -------------VLA PROJECT--------- -->
+          <div class="project-card">
+            <div class="project-image-container">
+              <img src="images/vla.png" alt="Project teaser image" class="project-image" />
+            </div>
+            <div class="project-info">
+              <h2 class="project-title">Your Vision-Language-Action Model Already Has Attention Heads For Path Deviation Detection</h2>
 
-      <p class="project-description">
-      Working with <a href="https://www.math.ucla.edu/~mihai/" class="project-link">Mihai Cucuringu</a> on a quantitative finance research project, 
-      we develop a graph-informed deep learning framework that models cross-sectional stock dependencies using spectral clustering and graph neural 
-      networks. By integrating macroeconomic signals, firm characteristics, and dynamically constructed market graphs, the model learns latent factor 
-      representations that isolate idiosyncratic alpha for statistical arbitrage, achieving strong out-of-sample performance and significantly improved 
-      risk-adjusted returns.
-      </p>
+              <p class="project-author">
+                Jaehwan Jeong, <strong>Evelyn Zhu</strong>, Jinying Lin, Emmanuel Jaimes,
+                Tuan-Anh Vu, Jungseock Joo, Sangpil Kim, M. Khalid Jawed
+              </p>
 
-      <a href="" class="project-link">
-        View Code
-      </a>
-      </div> -->
+              <p class="project-description">
+                Working with <a href="https://jaehwan-j.github.io/" class="project-link">Jaehwan Jeong</a> and collaborators, we develop a training-free
+                framework for detecting navigation failures in vision-language-action models by monitoring a small subset of attention heads.
+                The system enables real-time anomaly detection and safe recovery via a lightweight reinforcement learning policy, improving
+                robustness in both simulated and real-world robotic navigation.
+              </p>
 
-      <!-- -------------VLA PROJECT--------- -->
-      <div class="project-card">
-        <div class="project-image-container">
-          <img src="images/vla.png" alt="Project teaser image" class="project-image" />
-        </div>
-        <div class="project-info">
-          <h2 class="project-title">Your Vision-Language-Action Model Already Has Attention Heads For Path Deviation Detection</h2>
-          
-          <p class="project-author">
-            Jaehwan Jeong, <strong>Evelyn Zhu</strong>, Jinying Lin, Emmanuel Jaimes, 
-            Tuan-Anh Vu, Jungseock Joo, Sangpil Kim, M. Khalid Jawed
-          </p>
+              <a href="http://arxiv.org/abs/2603.13782" class="project-link">Paper</a>
+            </div>
+          </div>
 
-          <p class="project-description">
-            Working with <a href="https://jaehwan-j.github.io/" class="project-link">Jaehwan Jeong</a> and collaborators, we develop a training-free 
-            framework for detecting navigation failures in vision-language-action models by monitoring a small subset of attention heads. 
-            The system enables real-time anomaly detection and safe recovery via a lightweight reinforcement learning policy, improving 
-            robustness in both simulated and real-world robotic navigation.
-          </p>
+          <!-- -------------3D MESH OPTIMIZATION PROJECT--------- -->
+          <div class="project-card">
+            <div class="project-image-container">
+              <img src="images/3D_Meshing/bunny_image.png" alt="3D Mesh RL Optimization visualization" class="project-image" />
+            </div>
 
-          <a href="http://arxiv.org/abs/2603.13782" class="project-link">Paper</a>
-        </div>
-      </div>
-      <!-- -------------3D Mesh PROJECT--------- -->
-      <!-- -------------3D MESH OPTIMIZATION PROJECT--------- -->
-      <div class="project-card">
+            <div class="project-info">
+              <h2 class="project-title">
+                Reinforcement Learning for 3D Mesh Optimization
+              </h2>
 
-      <div class="project-image-container">
-      <img src="images/3D_Meshing/bunny_image.png" alt="3D Mesh RL Optimization visualization" class="project-image" />
-      </div>
+              <p class="project-description">
+                Working with <a href="https://jlu227.wixsite.com/kay-lu" class="project-link">Prof. Jiayin (Kay) Lu</a> in the
+                <a href="https://www.math.ucla.edu/aivc/" class="project-link">
+                  UCLA Artificial Intelligence & Visual Computing (AIVC) Lab</a>,
+                We develop a reinforcement learning framework that formulates 3D mesh refinement as a sequential decision problem.
+                Using Actor–Critic and PPO methods, the model learns vertex updates that improve element quality
+                (aspect ratio, distortion, signed volume consistency) while preserving geometric constraints.
+              </p>
 
-      <div class="project-info">
-      <h2 class="project-title">
-        Reinforcement Learning for 3D Mesh Optimization
-      </h2>
+              <a href="https://github.com/faith-luo/learning-meshing" class="project-link">
+                View Code
+              </a>
+            </div>
+          </div>
 
-      <p class="project-description">
-      Working with <a href="https://jlu227.wixsite.com/kay-lu" class="project-link">Prof. Jiayin (Kay) Lu</a> in the 
-      <a href="https://www.math.ucla.edu/aivc/" class="project-link">
-        UCLA Artificial Intelligence & Visual Computing (AIVC) Lab</a>, 
-      We develop a reinforcement learning framework that formulates 3D mesh refinement as a sequential decision problem. 
-      Using Actor–Critic and PPO methods, the model learns vertex updates that improve element quality 
-      (aspect ratio, distortion, signed volume consistency) while preserving geometric constraints.
-      </p>
+          <!-- -------------Drone PROJECT--------- -->
+          <div class="project-card">
+            <div class="project-image-container">
+              <img src="images/drone_nav/Drone_visualization.gif" alt="Project teaser image" class="project-image" />
+            </div>
+            <div class="project-info">
+              <h2 class="project-title">AgriNav-Sim2Real: A Multi-Sensor Dataset for Drone/UGV Navigation in Greenhouses (Synthetic + Real)</h2>
+              <p class="project-author"><strong>Evelyn Zhu</strong>, Tuan-Anh Vu, Russell Luo, Akshat Pandya, M. Khalid Jawed</p>
+              <p class="project-description">
+                Working with <a herf="https://tuananh1007.github.io/" class=project-link>Dr. Tuan-Anh Vu</a> and <a herf="https://www.khalidjawed.com/" class=project-link>Prof. M. Khalid Jawed</a> in the <a href="https://structures.computer/" class=project-link>structures-computer interaction</a>, We developed AgriNav-Sim2Real,
+                a large-scale synthetic–real greenhouse navigation dataset integrating RGB-D, NIR, LiDAR,
+                IMU, and GPS across Unreal Engine simulations and field recordings.
+                The project establishes benchmark tasks for navigation, segmentation, depth estimation, and sim-to-real transfer, enabling rigorous evaluation of multimodal perception models in agricultural environments.
+              </p>
+              <a href="https://drone.structures.computer/" class="project-link">Project Page</a>
+            </div>
+          </div>
 
-      <a href="https://github.com/faith-luo/learning-meshing" class="project-link">
-        View Code
-      </a>
+          <!-- -------------A&O PROJECT--------- -->
+          <div class="project-card">
+            <div class="project-image-container">
+              <img src="images/aos_pattern_effect/global_map_models.png" alt="Project teaser image" class="project-image" />
+            </div>
 
-  </div>
-</div>
+            <div class="project-info">
+              <h2 class="project-title">Investigating pattern effects on global energy budget using interpretable neural networks</h2>
+              <!-- <p class="project-author"><strong>Evelyn Zhu</strong>, Tuan-Anh Vu, Russell Luo, Akshat Pandya, M. Khalid Jawed</p> -->
+              <p class="project-description">
+                In collaboration with <a href="https://sites.google.com/view/yuedong-atmos/home?authuser=0" class=project-link>Prof. Dong Yue</a> and <a href="https://huaiyuwei.github.io/" class=project-link>Dr.Huaiyu Wei</a>,
+                We applied explainable artificial intelligence (XAI) to analyze global climate feedback parameters under abrupt 4xCO2 warming scenarios.
+                By utilizing Layerwise Relevance Propagation (LRP), we generated high-fidelity attribution maps to visually identify the specific geographic
+                regions driving climate sensitivity in global climate models
+              </p>
+              <a href="https://github.com/EvelynZhu88/interpretable-nn-pattern-effects" class="project-link">Project Page</a>
+            </div>
+          </div>
 
-
-
-      <!-- -------------Drone PROJECT--------- -->
-      <div class="project-card">
-      <div class="project-image-container">
-        <img src="images/drone_nav/Drone_visualization.gif" alt="Project teaser image" class="project-image" />
-      </div>
-      <div class="project-info">
-        <h2 class="project-title">AgriNav-Sim2Real: A Multi-Sensor Dataset for Drone/UGV Navigation in Greenhouses (Synthetic + Real)</h2>
-        <p class="project-author"><strong>Evelyn Zhu</strong>, Tuan-Anh Vu, Russell Luo, Akshat Pandya, M. Khalid Jawed</p>
-        <p class="project-description">
-          Working with <a herf="https://tuananh1007.github.io/" class=project-link>Dr. Tuan-Anh Vu</a> and <a herf="https://www.khalidjawed.com/" class=project-link>Prof. M. Khalid Jawed</a> in the <a href="https://structures.computer/" class=project-link>structures-computer interaction</a>, We developed AgriNav-Sim2Real, 
-          a large-scale synthetic–real greenhouse navigation dataset integrating RGB-D, NIR, LiDAR, 
-          IMU, and GPS across Unreal Engine simulations and field recordings. 
-          The project establishes benchmark tasks for navigation, segmentation, depth estimation, and sim-to-real transfer, enabling rigorous evaluation of multimodal perception models in agricultural environments.
-        </p>
-        <a href="https://drone.structures.computer/" class="project-link">Project Page</a>
-      </div>
-
-      </div>
-
-      <!-- -------------A&O PROJECT--------- -->
-      <div class="project-card">
-      <div class="project-image-container">
-        <img src="images/aos_pattern_effect/global_map_models.png" alt="Project teaser image" class="project-image" />
-      </div>
-
-      <div class="project-info">
-        <h2 class="project-title">Investigating pattern effects on global energy budget using interpretable neural networks</h2>
-        <!-- <p class="project-author"><strong>Evelyn Zhu</strong>, Tuan-Anh Vu, Russell Luo, Akshat Pandya, M. Khalid Jawed</p> -->
-        <p class="project-description">
-          In collaboration with <a href="https://sites.google.com/view/yuedong-atmos/home?authuser=0" class=project-link>Prof. Dong Yue</a> and <a href="https://huaiyuwei.github.io/" class=project-link>Dr.Huaiyu Wei</a>, 
-          We applied explainable artificial intelligence (XAI) to analyze global climate feedback parameters under abrupt 4xCO2 warming scenarios. 
-          By utilizing Layerwise Relevance Propagation (LRP), we generated high-fidelity attribution maps to visually identify the specific geographic 
-          regions driving climate sensitivity in global climate models
-        </p>
-        <a href="https://github.com/EvelynZhu88/interpretable-nn-pattern-effects" class="project-link">Project Page</a>
-      </div>
-
-      </div>
-      <div class="project-card">
-      <div class="project-image-container placeholder">
-        <span>Project image coming soon</span>
-      </div>
-      <div class="project-info">
-        <h2 class="project-title">A numerical investigation of the convergence properties of foundational optimization algorithms</h2>
-        <!-- <p class="project-author"><strong></strong></p> -->
-        <p class="project-description">
-          A self-directed investigation into the convergence properties of foundational optimization algorithms. 
-          Drawing on theory I studied in class (Math 164), I constructed numerical experiments to test how Gradient Descent, 
-          Conjugate Gradient, and Newton’s Method perform under various conditioning scenarios. 
-          The results compare theoretical predictions with observed numerical dynamics.
-        </p>
-        <div class="project-links">
-          <a href="https://github.com/EvelynZhu88/optimization-convergence-study" class="project-link">Project Page</a>
-          <a href="files/report.pdf" download="Evelyn_Project_Report.pdf" class="project-link">Download PDF</a>
-        </div>
-      </div>
-
-      </div>
-
-    </section>
+        </section>
 
         <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/in/evelynz88" target="_blank" class=project-link>
-          My linkedin profile
-        </a>
-      </p>
-      <p>
-        Email:
-        <a href="mailto:evelynzhu88@ucla.edu" class=project-link>
-          evelynzhu88@ucla.edu
-        </a>
-      </p>
-    </section>
+          <h2>Contact</h2>
+          <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/evelynz88" target="_blank" class=project-link>
+              My linkedin profile
+            </a>
+          </p>
+          <p>
+            Email:
+            <a href="mailto:evelynzhu88@ucla.edu" class=project-link>
+              evelynzhu88@ucla.edu
+            </a>
+          </p>
+        </section>
       </main>
     </div>
   </div>
