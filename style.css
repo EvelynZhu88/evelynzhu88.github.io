@@ -124,38 +124,37 @@ main {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  gap: 16px;
-  margin-bottom: 28px;
-  padding: 12px 0;
+  gap: 24px;
+  margin-bottom: 40px;
+  padding: 12px 0 32px;
+  border-bottom: 1px solid #f3b6c1;
+}
+
+.project-card:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
 }
 .project-image-container {
-  width: 350px;
+  width: 300px;
+  height: 200px;
   flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #fff;
+  padding: 8px;
   order: 2;
 }
 
-/* Featured card: keep image to the right, wider column, aligned to the paragraph */
-.project-card.featured {
-  align-items: stretch;
-}
-
-.project-card.featured .project-image-container {
-  width: 480px;
-}
-
-/* Teaser fills the paragraph's height, whole image visible, centered */
-.project-card.featured .project-image {
-  height: 100%;
-  object-fit: contain;
-}
-
+/* Whole image scaled to fit inside the fixed box -- never cropped */
 .project-image {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
   height: auto;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 .project-image-container.placeholder {
@@ -168,7 +167,8 @@ main {
 }
 
 .project-info {
-  max-width: 600px;
+  flex: 1;
+  max-width: none;
   display: flex;
   flex-direction: column;
   gap: 10px;
